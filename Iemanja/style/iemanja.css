@@ -203,9 +203,12 @@ main p {
         padding-bottom: 30px;
     }
 
-    nav a {
-        padding-right: 79px;
-        padding-left: 0px;
+    #nav2 {
+        padding-left: 90;
+    }
+
+    #nav3 {
+        padding-right: 80;
     }
         
 }
