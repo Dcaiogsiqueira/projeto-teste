@@ -204,7 +204,8 @@ main p {
     }
 
     nav a {
-        padding-right: 80px;
+        padding-right: 79px;
+        padding-left: 0px;
     }
         
 }
