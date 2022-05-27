@@ -202,5 +202,9 @@ main p {
         padding-top: 0;
         padding-bottom: 30px;
     }
+
+    nav a {
+        padding-right: 68px;
+    }
         
 }
