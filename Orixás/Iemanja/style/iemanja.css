@@ -5,11 +5,11 @@
 :root {
     
     /*Paleta de Iemanja*/
-    --corIa1: #ccf2fd;
-    --corIa2: #9ce7fd;
-    --corIa3: #30A8F2;
-    --corIa4: #115DBF;
-    --corIa5: #100785;
+    --cor1: #ccf2fd;
+    --cor2: #9ce7fd;
+    --cor3: #30A8F2;
+    --cor4: #115DBF;
+    --cor5: #100785;
 
     --font-Titulos: 'Cormorant', serif;
     --font-Textos: 'Montserrat', sans-serif;
@@ -21,13 +21,13 @@
 }
 
 body {
-    background-color: var(--corIa1);
+    background-color: var(--cor1);
     font-family: var(--font-Textos);
 }
 
 header {
     background: right center no-repeat scroll;
-    background-image:  url('../image/iemanjaHeader.png'), linear-gradient(to bottom, white, var(--corIa3)) ;
+    background-image:  url('../image/iemanjaHeader.png'), linear-gradient(to bottom, white, var(--cor3)) ;
     background-size: contain;
     min-height: 150px;
     text-align: center;
@@ -36,7 +36,7 @@ header {
 }
 
 #title {
-    color: var(--corIa5);
+    color: var(--cor5);
     font: var(--font-Titulos) lighter;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.74);
     margin: auto;
@@ -57,7 +57,7 @@ header {
 
 
 header p {
-    color: var(--corIa4);
+    color: var(--cor4);
     font-size: 1.2em;
     font-weight: bold;
     text-shadow: -1px -1px rgb(48, 11, 211);
@@ -70,12 +70,12 @@ header p {
 }
 
 nav {
-    background-color: var(--corIa3);
+    background-color: var(--cor3);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.384);
 }
 nav > a {
-    color: var(--corIa5);
+    color: var(--cor5);
     padding: 10px;
     border-radius: 3px;
     text-decoration: none;
@@ -84,7 +84,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: var(--corIa4);
+    background-color: var(--cor4);
     color: var(--corIa2);
     text-decoration: underline;
 }
@@ -102,7 +102,7 @@ main {
 }
 
 main h1 {
-    color: var(--corIa4);
+    color: var(--cor4);
     font-family: var(--font-Titulos);
     font-weight: normal;
     font-size: 1.8em;
@@ -110,9 +110,9 @@ main h1 {
 
 main h2 {
     font-family: var(--font-Titulos);
-    color: var(--corIa1);
+    color: var(--cor1);
     font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--corIa3), transparent);
+    background-image: linear-gradient(to right, var(--cor3), transparent);
     text-indent: 8px;
     font-weight: normal;
 }
@@ -127,18 +127,18 @@ main p {
 
 footer {
     text-align: center;
-    background-color: var(--corIa5);
-    color: var(--corIa1);
+    background-color: var(--cor5);
+    color: var(--cor1);
     font: var(--font-Titulos) lighter;
 }
 
 footer a {
-    color: var(--corIa1);
+    color: var(--cor1);
     text-decoration: none;
 }
 
 footer a:hover {
-    color: var(--corIa2);
+    color: var(--cor2);
     text-decoration: underline;
 }
 
@@ -147,7 +147,7 @@ footer a:hover {
     
     header {
         display: flex;
-        background-image:linear-gradient(to bottom, white, var(--corIa3)) ;      
+        background-image:linear-gradient(to bottom, white, var(--cor3)) ;      
         padding-bottom: 20px;
         height: 270px;
     }
@@ -187,7 +187,7 @@ footer a:hover {
     
     header {
         display: flex;
-        background-image:linear-gradient(to bottom, white, var(--corIa3)) ;      
+        background-image:linear-gradient(to bottom, white, var(--cor3)) ;      
         padding-bottom: 30px;
         height: 280px;
     }
